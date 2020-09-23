@@ -18,18 +18,6 @@
     <link href='https://www.blogger.com/openid-server.g' rel='openid.server'/>
     <link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
     <link expr:href='data:blog.url' rel='canonical'/>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async='async' src='https://www.googletagmanager.com/gtag/js?id=UA-132323678-2'/>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag(&#39;js&#39;, new Date());
-
-        gtag(&#39;config&#39;, &#39;UA-132323678-2&#39;);
-    </script>
-    <!-- End of Global site tag (gtag.js) - Google Analytics -->
-
     <b:if cond='data:blog.pageType == &quot;index&quot;'>
         <title><data:blog.pageTitle/></title>
         <b:else/>
