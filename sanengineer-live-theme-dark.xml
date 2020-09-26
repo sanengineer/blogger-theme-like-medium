@@ -247,12 +247,19 @@
             
 
             /* Light Dark Mode */
-                html{
-                    background:var(--lightButton);
+                /*html {
+                    background:var(--lightBackground;
                     --lightButton: #fff;
-                    --lightBackgorund: #fff;
+                    --lightBackground: #0a0a0a;
                     --lightColor:#232323;
                 }
+
+                html[data-theme='dark'] {
+                    background: var(--lightBackground);
+                    --lightButton: #fff;
+                    --lightBackground:#dfdfd;
+                    --lightColor: #dfdfdf;
+                }*/
 
                 body{
                     background:#0a0a0a;
@@ -281,7 +288,7 @@
                     text-indent: -9999px;
                     width: 26px;
                     height: 14px;
-                    background: var(--lightButton);
+                    background: var(--lightBackground);
                     margin: 0 auto;
                     display: inline-flex;
                     justify-content: center;
@@ -308,6 +315,15 @@
 
                 input:checked + label:after {
                     left: calc(100% - 3px);
+                    -webkit-transform: translateX(-100%);
+                    -moz-transform: translateX(-100%);
+                    -ms-transform: translateX(-100%);
+                    -o-transform: translateX(-100%);
+                    transform: translateX(-100%);
+                }
+
+                input:checked + label:after {
+                    left: calc(100% - 5px);
                     -webkit-transform: translateX(-100%);
                     -moz-transform: translateX(-100%);
                     -ms-transform: translateX(-100%);
@@ -9721,6 +9737,25 @@
             }
             }
 </style>
+
+<script type="text/javascript">
+
+    //<![CDATA[
+        var checkbox = document.querySelector('input[name=mode]');
+
+        checkbox.addEventListener('change', function() {
+            if(this.checked) {
+
+                    document.documentElement.setAttribute('data-theme', 'dark')
+                } else {
+                
+                        document.documentElement.setAttribute('data-theme', 'light')
+                }
+            })
+
+    //]]>
+        
+</script>
 
 </body>
 </HTML>
