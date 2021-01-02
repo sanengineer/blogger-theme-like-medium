@@ -8452,7 +8452,7 @@
                                                     </a>
                                                     <b:else/>
                                                     <a expr:href='data:post.url' expr:title='data:post.title'>
-                                                        <div class='postthumb'><img class='lazyestload' expr:alt='data:post.title' expr:title='data:post.title' itemprop='image' data-src='https://monochroomlab.com/wp-content/uploads/2020/04/no-image-icon-no-border-radius-16-9@4x.png' src='https://monochroomlab.com/wp-content/uploads/2020/04/no-image-icon-no-border-radius-16-9@4x.png'/></div>
+                                                        <div class='postthumb'><img class='lazyestload' expr:alt='data:post.title' expr:title='data:post.title' itemprop='image' data-src='https://sanengineer.com/content/images/size/w1000/2020/12/San-Engineer-Logo@2x.png' src='https://sanengineer.com/content/images/size/w1000/2020/12/San-Engineer-Logo@2x.png'/></div>
                                                     </a>
                                                 </b:if>
                                                 
@@ -8845,7 +8845,7 @@
                                                         summaryLength: 120,
                                                         titleLength: &quot;auto&quot;,
                                                         thumbnailSize: 80,
-                                                        noImage: &quot;https://monochroomlab.com/wp-content/uploads/2020/04/no-image-icon-no-border-radius@2x.png&quot;,
+                                                        noImage: &quot;https://sanengineer.com/content/images/size/w1000/2020/12/San-Engineer-Logo@2x.png&quot;,
                                                         containerId: &quot;bpostrelated-post&quot;,
                                                         newTabLink: false,
                                                         moreText: &quot;Read More&quot;,
@@ -9137,7 +9137,7 @@
                                                             summaryLength: 120,
                                                             titleLength: &quot;auto&quot;,
                                                             thumbnailSize: 80,
-                                                            noImage: &quot;https://monochroomlab.com/wp-content/uploads/2020/04/no-image-icon-no-border-radius@2x.png&quot;,
+                                                            noImage: &quot;https://sanengineer.com/content/images/size/w1000/2020/12/San-Engineer-Logo@2x.png&quot;,
                                                             containerId: &quot;bpostrelated-post&quot;,
                                                             newTabLink: false,
                                                             moreText: &quot;Read More&quot;,
@@ -9352,7 +9352,7 @@
                 </div>
                 <div class='credit-theme-dev'>
                     <span>theme by</span>
-                    <a class='devWeb' href='http://monochroomlab.com' title='This Theme Made With ❤️ and ☕️'>mrl</a>
+                    <a class='devWeb' href='https://sanengineer.com.com' title='This Theme Made With ❤️ and ☕️'>sanengineer</a>
                 </div>
             </div>
         </div>
