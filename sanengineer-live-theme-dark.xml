@@ -7329,7 +7329,7 @@
           	</li>
 
             <li id="darkModeToogles" class='dark-mode-toggle'>
-              	<input class="container_toggle" type="checkbox" id="switch" name="mode"></input>
+              	<input class="container_toggle" type="checkbox" id="switch" name="mode" />
                 <label for="switch"></label>
             </li>
             
